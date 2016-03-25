@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B0BEC251A2C3E93007FAE23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BEC241A2C3E93007FAE23 /* main.m */; };
+		6B0BEC281A2C3E93007FAE23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BEC271A2C3E93007FAE23 /* AppDelegate.m */; };
+		6B0BEC2B1A2C3E93007FAE23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BEC2A1A2C3E93007FAE23 /* ViewController.m */; };
+		6B0BEC2E1A2C3E93007FAE23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BEC2C1A2C3E93007FAE23 /* Main.storyboard */; };
+		6B0BEC301A2C3E93007FAE23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BEC2F1A2C3E93007FAE23 /* Images.xcassets */; };
+		6B0BEC331A2C3E93007FAE23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BEC311A2C3E93007FAE23 /* LaunchScreen.xib */; };
+		6B0BEC3F1A2C3E93007FAE23 /* Crappy_PlaneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BEC3E1A2C3E93007FAE23 /* Crappy_PlaneTests.m */; };
+		6B0BEC4A1A2C481C007FAE23 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BEC491A2C481C007FAE23 /* GameViewController.m */; };
+		6B0CC5871A2CE7A8002BB064 /* BetaBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0CC5841A2CE7A8002BB064 /* BetaBG.png */; };
+		6B0CC5881A2CE7A8002BB064 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0CC5851A2CE7A8002BB064 /* down.png */; };
+		6B0CC5891A2CE7A8002BB064 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0CC5861A2CE7A8002BB064 /* up.png */; };
+		6BA5B28D1A3924FC00EB01EE /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA5B28C1A3924FC00EB01EE /* bar.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B0BEC391A2C3E93007FAE23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B0BEC171A2C3E93007FAE23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B0BEC1E1A2C3E93007FAE23;
+			remoteInfo = "Crappy Plane";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B0BEC1F1A2C3E93007FAE23 /* Crappy Plane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crappy Plane.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0BEC231A2C3E93007FAE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B0BEC241A2C3E93007FAE23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B0BEC261A2C3E93007FAE23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B0BEC271A2C3E93007FAE23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B0BEC291A2C3E93007FAE23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B0BEC2A1A2C3E93007FAE23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B0BEC2D1A2C3E93007FAE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B0BEC2F1A2C3E93007FAE23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6B0BEC321A2C3E93007FAE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6B0BEC381A2C3E93007FAE23 /* Crappy PlaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crappy PlaneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0BEC3D1A2C3E93007FAE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B0BEC3E1A2C3E93007FAE23 /* Crappy_PlaneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crappy_PlaneTests.m; sourceTree = "<group>"; };
+		6B0BEC481A2C481C007FAE23 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		6B0BEC491A2C481C007FAE23 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		6B0CC5841A2CE7A8002BB064 /* BetaBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BetaBG.png; sourceTree = "<group>"; };
+		6B0CC5851A2CE7A8002BB064 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		6B0CC5861A2CE7A8002BB064 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		6BA5B28C1A3924FC00EB01EE /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B0BEC1C1A2C3E93007FAE23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0BEC351A2C3E93007FAE23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B0BEC161A2C3E93007FAE23 = {
+			isa = PBXGroup;
+			children = (
+				6B0BEC211A2C3E93007FAE23 /* Crappy Plane */,
+				6B0BEC3B1A2C3E93007FAE23 /* Crappy PlaneTests */,
+				6B0BEC201A2C3E93007FAE23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B0BEC201A2C3E93007FAE23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B0BEC1F1A2C3E93007FAE23 /* Crappy Plane.app */,
+				6B0BEC381A2C3E93007FAE23 /* Crappy PlaneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B0BEC211A2C3E93007FAE23 /* Crappy Plane */ = {
+			isa = PBXGroup;
+			children = (
+				6B0BEC261A2C3E93007FAE23 /* AppDelegate.h */,
+				6B0BEC271A2C3E93007FAE23 /* AppDelegate.m */,
+				6B0BEC291A2C3E93007FAE23 /* ViewController.h */,
+				6B0BEC2A1A2C3E93007FAE23 /* ViewController.m */,
+				6B0BEC481A2C481C007FAE23 /* GameViewController.h */,
+				6B0BEC491A2C481C007FAE23 /* GameViewController.m */,
+				6B0BEC2C1A2C3E93007FAE23 /* Main.storyboard */,
+				6B0BEC2F1A2C3E93007FAE23 /* Images.xcassets */,
+				6B0BEC311A2C3E93007FAE23 /* LaunchScreen.xib */,
+				6B0CC5831A2CE7A8002BB064 /* Images */,
+				6B0BEC221A2C3E93007FAE23 /* Supporting Files */,
+			);
+			path = "Crappy Plane";
+			sourceTree = "<group>";
+		};
+		6B0BEC221A2C3E93007FAE23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B0BEC231A2C3E93007FAE23 /* Info.plist */,
+				6B0BEC241A2C3E93007FAE23 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B0BEC3B1A2C3E93007FAE23 /* Crappy PlaneTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B0BEC3E1A2C3E93007FAE23 /* Crappy_PlaneTests.m */,
+				6B0BEC3C1A2C3E93007FAE23 /* Supporting Files */,
+			);
+			path = "Crappy PlaneTests";
+			sourceTree = "<group>";
+		};
+		6B0BEC3C1A2C3E93007FAE23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B0BEC3D1A2C3E93007FAE23 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B0CC5831A2CE7A8002BB064 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6BA5B28C1A3924FC00EB01EE /* bar.png */,
+				6B0CC5841A2CE7A8002BB064 /* BetaBG.png */,
+				6B0CC5851A2CE7A8002BB064 /* down.png */,
+				6B0CC5861A2CE7A8002BB064 /* up.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B0BEC1E1A2C3E93007FAE23 /* Crappy Plane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B0BEC421A2C3E93007FAE23 /* Build configuration list for PBXNativeTarget "Crappy Plane" */;
+			buildPhases = (
+				6B0BEC1B1A2C3E93007FAE23 /* Sources */,
+				6B0BEC1C1A2C3E93007FAE23 /* Frameworks */,
+				6B0BEC1D1A2C3E93007FAE23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crappy Plane";
+			productName = "Crappy Plane";
+			productReference = 6B0BEC1F1A2C3E93007FAE23 /* Crappy Plane.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B0BEC371A2C3E93007FAE23 /* Crappy PlaneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B0BEC451A2C3E93007FAE23 /* Build configuration list for PBXNativeTarget "Crappy PlaneTests" */;
+			buildPhases = (
+				6B0BEC341A2C3E93007FAE23 /* Sources */,
+				6B0BEC351A2C3E93007FAE23 /* Frameworks */,
+				6B0BEC361A2C3E93007FAE23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B0BEC3A1A2C3E93007FAE23 /* PBXTargetDependency */,
+			);
+			name = "Crappy PlaneTests";
+			productName = "Crappy PlaneTests";
+			productReference = 6B0BEC381A2C3E93007FAE23 /* Crappy PlaneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B0BEC171A2C3E93007FAE23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Roshit Gopinath";
+				TargetAttributes = {
+					6B0BEC1E1A2C3E93007FAE23 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					6B0BEC371A2C3E93007FAE23 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 6B0BEC1E1A2C3E93007FAE23;
+					};
+				};
+			};
+			buildConfigurationList = 6B0BEC1A1A2C3E93007FAE23 /* Build configuration list for PBXProject "Crappy Plane" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B0BEC161A2C3E93007FAE23;
+			productRefGroup = 6B0BEC201A2C3E93007FAE23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B0BEC1E1A2C3E93007FAE23 /* Crappy Plane */,
+				6B0BEC371A2C3E93007FAE23 /* Crappy PlaneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B0BEC1D1A2C3E93007FAE23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0CC5891A2CE7A8002BB064 /* up.png in Resources */,
+				6B0BEC2E1A2C3E93007FAE23 /* Main.storyboard in Resources */,
+				6B0CC5881A2CE7A8002BB064 /* down.png in Resources */,
+				6B0BEC331A2C3E93007FAE23 /* LaunchScreen.xib in Resources */,
+				6B0CC5871A2CE7A8002BB064 /* BetaBG.png in Resources */,
+				6BA5B28D1A3924FC00EB01EE /* bar.png in Resources */,
+				6B0BEC301A2C3E93007FAE23 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0BEC361A2C3E93007FAE23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B0BEC1B1A2C3E93007FAE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0BEC4A1A2C481C007FAE23 /* GameViewController.m in Sources */,
+				6B0BEC2B1A2C3E93007FAE23 /* ViewController.m in Sources */,
+				6B0BEC281A2C3E93007FAE23 /* AppDelegate.m in Sources */,
+				6B0BEC251A2C3E93007FAE23 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0BEC341A2C3E93007FAE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0BEC3F1A2C3E93007FAE23 /* Crappy_PlaneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B0BEC3A1A2C3E93007FAE23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B0BEC1E1A2C3E93007FAE23 /* Crappy Plane */;
+			targetProxy = 6B0BEC391A2C3E93007FAE23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B0BEC2C1A2C3E93007FAE23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B0BEC2D1A2C3E93007FAE23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B0BEC311A2C3E93007FAE23 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B0BEC321A2C3E93007FAE23 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B0BEC401A2C3E93007FAE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B0BEC411A2C3E93007FAE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B0BEC431A2C3E93007FAE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crappy Plane/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B0BEC441A2C3E93007FAE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crappy Plane/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B0BEC461A2C3E93007FAE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Crappy PlaneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crappy Plane.app/Crappy Plane";
+			};
+			name = Debug;
+		};
+		6B0BEC471A2C3E93007FAE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Crappy PlaneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crappy Plane.app/Crappy Plane";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B0BEC1A1A2C3E93007FAE23 /* Build configuration list for PBXProject "Crappy Plane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0BEC401A2C3E93007FAE23 /* Debug */,
+				6B0BEC411A2C3E93007FAE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B0BEC421A2C3E93007FAE23 /* Build configuration list for PBXNativeTarget "Crappy Plane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0BEC431A2C3E93007FAE23 /* Debug */,
+				6B0BEC441A2C3E93007FAE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B0BEC451A2C3E93007FAE23 /* Build configuration list for PBXNativeTarget "Crappy PlaneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0BEC461A2C3E93007FAE23 /* Debug */,
+				6B0BEC471A2C3E93007FAE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B0BEC171A2C3E93007FAE23 /* Project object */;
+}
