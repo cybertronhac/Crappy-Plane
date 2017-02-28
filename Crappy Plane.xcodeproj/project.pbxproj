@@ -15,10 +15,14 @@
 		6B0BEC331A2C3E93007FAE23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B0BEC311A2C3E93007FAE23 /* LaunchScreen.xib */; };
 		6B0BEC3F1A2C3E93007FAE23 /* Crappy_PlaneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BEC3E1A2C3E93007FAE23 /* Crappy_PlaneTests.m */; };
 		6B0BEC4A1A2C481C007FAE23 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BEC491A2C481C007FAE23 /* GameViewController.m */; };
-		6B0CC5871A2CE7A8002BB064 /* BetaBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0CC5841A2CE7A8002BB064 /* BetaBG.png */; };
-		6B0CC5881A2CE7A8002BB064 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0CC5851A2CE7A8002BB064 /* down.png */; };
-		6B0CC5891A2CE7A8002BB064 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0CC5861A2CE7A8002BB064 /* up.png */; };
-		6BA5B28D1A3924FC00EB01EE /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA5B28C1A3924FC00EB01EE /* bar.png */; };
+		E80FDAEF1CE1245100032C92 /* crappy-plane-bg-blur.png in Resources */ = {isa = PBXBuildFile; fileRef = E80FDAE81CE1245100032C92 /* crappy-plane-bg-blur.png */; };
+		E80FDAF01CE1245100032C92 /* crappy-plane-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E80FDAE91CE1245100032C92 /* crappy-plane-bg.png */; };
+		E80FDAF11CE1245100032C92 /* crappy-plane-splash.png in Resources */ = {isa = PBXBuildFile; fileRef = E80FDAEA1CE1245100032C92 /* crappy-plane-splash.png */; };
+		E80FDAF21CE1245100032C92 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = E80FDAEB1CE1245100032C92 /* down.png */; };
+		E80FDAF31CE1245100032C92 /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = E80FDAEC1CE1245100032C92 /* hand.png */; };
+		E80FDAF41CE1245100032C92 /* handOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = E80FDAED1CE1245100032C92 /* handOrange.png */; };
+		E80FDAF51CE1245100032C92 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = E80FDAEE1CE1245100032C92 /* up.png */; };
+		E80FDAF71CE125B200032C92 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = E80FDAF61CE125B200032C92 /* bar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +51,14 @@
 		6B0BEC3E1A2C3E93007FAE23 /* Crappy_PlaneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crappy_PlaneTests.m; sourceTree = "<group>"; };
 		6B0BEC481A2C481C007FAE23 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		6B0BEC491A2C481C007FAE23 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		6B0CC5841A2CE7A8002BB064 /* BetaBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BetaBG.png; sourceTree = "<group>"; };
-		6B0CC5851A2CE7A8002BB064 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
-		6B0CC5861A2CE7A8002BB064 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
-		6BA5B28C1A3924FC00EB01EE /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		E80FDAE81CE1245100032C92 /* crappy-plane-bg-blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crappy-plane-bg-blur.png"; sourceTree = "<group>"; };
+		E80FDAE91CE1245100032C92 /* crappy-plane-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crappy-plane-bg.png"; sourceTree = "<group>"; };
+		E80FDAEA1CE1245100032C92 /* crappy-plane-splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crappy-plane-splash.png"; sourceTree = "<group>"; };
+		E80FDAEB1CE1245100032C92 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		E80FDAEC1CE1245100032C92 /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
+		E80FDAED1CE1245100032C92 /* handOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handOrange.png; sourceTree = "<group>"; };
+		E80FDAEE1CE1245100032C92 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		E80FDAF61CE125B200032C92 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +100,7 @@
 		6B0BEC211A2C3E93007FAE23 /* Crappy Plane */ = {
 			isa = PBXGroup;
 			children = (
+				E80FDAE71CE1243600032C92 /* Images */,
 				6B0BEC261A2C3E93007FAE23 /* AppDelegate.h */,
 				6B0BEC271A2C3E93007FAE23 /* AppDelegate.m */,
 				6B0BEC291A2C3E93007FAE23 /* ViewController.h */,
@@ -101,7 +110,6 @@
 				6B0BEC2C1A2C3E93007FAE23 /* Main.storyboard */,
 				6B0BEC2F1A2C3E93007FAE23 /* Images.xcassets */,
 				6B0BEC311A2C3E93007FAE23 /* LaunchScreen.xib */,
-				6B0CC5831A2CE7A8002BB064 /* Images */,
 				6B0BEC221A2C3E93007FAE23 /* Supporting Files */,
 			);
 			path = "Crappy Plane";
@@ -133,15 +141,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6B0CC5831A2CE7A8002BB064 /* Images */ = {
+		E80FDAE71CE1243600032C92 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				6BA5B28C1A3924FC00EB01EE /* bar.png */,
-				6B0CC5841A2CE7A8002BB064 /* BetaBG.png */,
-				6B0CC5851A2CE7A8002BB064 /* down.png */,
-				6B0CC5861A2CE7A8002BB064 /* up.png */,
+				E80FDAE81CE1245100032C92 /* crappy-plane-bg-blur.png */,
+				E80FDAE91CE1245100032C92 /* crappy-plane-bg.png */,
+				E80FDAEA1CE1245100032C92 /* crappy-plane-splash.png */,
+				E80FDAF61CE125B200032C92 /* bar.png */,
+				E80FDAEB1CE1245100032C92 /* down.png */,
+				E80FDAEC1CE1245100032C92 /* hand.png */,
+				E80FDAED1CE1245100032C92 /* handOrange.png */,
+				E80FDAEE1CE1245100032C92 /* up.png */,
 			);
-			path = Images;
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,11 +200,12 @@
 		6B0BEC171A2C3E93007FAE23 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Roshit Gopinath";
 				TargetAttributes = {
 					6B0BEC1E1A2C3E93007FAE23 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 756M864D4M;
 					};
 					6B0BEC371A2C3E93007FAE23 = {
 						CreatedOnToolsVersion = 6.1;
@@ -224,13 +237,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B0CC5891A2CE7A8002BB064 /* up.png in Resources */,
+				E80FDAF51CE1245100032C92 /* up.png in Resources */,
 				6B0BEC2E1A2C3E93007FAE23 /* Main.storyboard in Resources */,
-				6B0CC5881A2CE7A8002BB064 /* down.png in Resources */,
 				6B0BEC331A2C3E93007FAE23 /* LaunchScreen.xib in Resources */,
-				6B0CC5871A2CE7A8002BB064 /* BetaBG.png in Resources */,
-				6BA5B28D1A3924FC00EB01EE /* bar.png in Resources */,
+				E80FDAF21CE1245100032C92 /* down.png in Resources */,
+				E80FDAF11CE1245100032C92 /* crappy-plane-splash.png in Resources */,
+				E80FDAF01CE1245100032C92 /* crappy-plane-bg.png in Resources */,
 				6B0BEC301A2C3E93007FAE23 /* Images.xcassets in Resources */,
+				E80FDAF31CE1245100032C92 /* hand.png in Resources */,
+				E80FDAF41CE1245100032C92 /* handOrange.png in Resources */,
+				E80FDAF71CE125B200032C92 /* bar.png in Resources */,
+				E80FDAEF1CE1245100032C92 /* crappy-plane-bg-blur.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +330,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -373,9 +391,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Crappy Plane/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "roshh.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -383,9 +405,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Crappy Plane/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "roshh.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -403,6 +429,7 @@
 				);
 				INFOPLIST_FILE = "Crappy PlaneTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "roshh.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crappy Plane.app/Crappy Plane";
 			};
@@ -418,6 +445,7 @@
 				);
 				INFOPLIST_FILE = "Crappy PlaneTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "roshh.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crappy Plane.app/Crappy Plane";
 			};

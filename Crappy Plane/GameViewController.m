@@ -25,6 +25,7 @@
     barTimer = [NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(BarMoving) userInfo:nil repeats:YES];
 }
 
+
 -(void)GameOver
 {
     [flightTimer invalidate];
@@ -80,7 +81,7 @@
     RandomTopBarPosition = arc4random() % 350;
     RandomTopBarPosition = RandomTopBarPosition - 228;
     //RandomBottomBarPosition = RandomTopBarPosition + 655;
-    RandomBottomBarPosition = RandomTopBarPosition + 675;
+    RandomBottomBarPosition = RandomTopBarPosition + 685;
     
     barTop.center = CGPointMake(340, RandomTopBarPosition);
     barBottom.center = CGPointMake(340, RandomBottomBarPosition);
@@ -107,7 +108,7 @@
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    flightVal = 30;
+    flightVal = 25;
 }
 
 - (void)viewDidLoad {
